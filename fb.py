@@ -2,8 +2,8 @@ import pygame
 import numpy as np
 
 # Constants
-SCREEN_WIDTH = 400
-SCREEN_HEIGHT = 600
+SCREEN_WIDTH = 600
+SCREEN_HEIGHT = 800
 GRAVITY = 0.3
 JUMP_FORCE = -5
 PIPE_SPAWN_INTERVAL = 120
@@ -26,7 +26,7 @@ player_height = 20
 pipes = []
 pipe_spawn_counter = 0
 pipe_width = 20
-pipe_height = 200
+pipe_height = 2000
 
 # Game loop
 game_over = False
